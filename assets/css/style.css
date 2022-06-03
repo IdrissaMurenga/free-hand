@@ -1,0 +1,204 @@
+body{
+    position: relative;
+    font-family: "Roboto", "Arial","sans-serif";
+    background-image: url(/assets/images/bg2.jpg);
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+}
+.first-image{
+    width: 15rem;
+}
+.box{
+    position: absolute;
+    top: 2rem;
+    width: 22rem;
+    height: 90rem;
+    z-index: -1;
+    left: 0.2rem;
+    background-image: linear-gradient(#306ed5, #b23c8a);
+}
+.textes{
+    position: relative;
+    width: 16rem;
+    height: 40rem;
+    bottom: 2rem;
+    left: 1.5rem;
+    z-index: -1;
+    padding: 2.5rem;
+    opacity: 0.95;
+    color: #fff;
+    background-color: #0f2557;
+}
+p{
+    padding-bottom: 1rem;
+    color: #e5e5e5;
+}
+h1{
+    padding: 2rem 0;
+    font-family: montserrat, sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+}
+.textes-p1{
+    font-size: 1.2rem;
+}
+h5{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+a{
+    text-decoration: none;
+    font-family: montserrat, sans-serif;
+    padding: 1rem 2rem;
+    color: #fff;
+    background-color: #f15048;
+}
+.svg-img{
+    width: 5rem;
+}
+.cards{
+    margin-top: -10.3rem;
+    margin-left: 5rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+.cards>*{
+    background-color: #4184f4;
+    padding-top: 1rem ;
+    margin-bottom: 0.75rem;
+    opacity: 0.8;
+}
+.number{
+    visibility: hidden;
+}
+@media(min-width:700px){
+    body{
+        background-image: url(/assets/images/bg2.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat; 
+    }
+    .box, .number, .rounded{
+        position: absolute;
+    }
+    .box{
+        top: 2rem;
+        width: 22rem;
+        height: 56rem;
+        z-index: -1;
+        left: 2rem;
+        background-image: linear-gradient(#306ed5, #b23c8a);
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: -5rem;
+        margin-left: 10rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    .card1, .card2, .card3{
+        padding:0.1rem;
+    }
+    .textes{
+        position: relative;
+        width: 30rem;
+        height: 25rem;
+        bottom: 2rem;
+        left: 5rem;
+        z-index: -1;
+        padding: 5rem;
+        opacity: 0.95;
+        color: #fff;
+        background-color: #0f2557;
+    }
+    .card4, .card5{
+        padding: 1rem 3.1rem;
+    }
+    a{
+        margin: 0 8rem;
+    }
+    .number{
+        visibility: visible;
+        top: 5rem;
+        left: 39rem;
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+        background-color: #4184f4;
+    }
+    .number-h2{
+        font-size: 5rem;
+        font-weight: bold;
+        font-family: montserrat, sans-serif;
+    }
+    .rounded{
+        top: 3.8rem;
+        left: 2.8rem;
+        border: 15px solid #f15048;
+        border-radius: 50%;
+    }
+}
+@media(min-width:1114px){
+    .box, .number, .rounded{
+        position: absolute;
+    }
+    .box{
+        top: 2rem;
+        width: 40rem;
+        height:42rem;
+        z-index: -1;
+        left: 2rem;
+        background-image: linear-gradient(#306ed5, #b23c8a);
+    }
+    .textes{
+        position: relative;
+        width: 50rem;
+        height: 20rem;
+        bottom: 2rem;
+        left: 5rem;
+        z-index: -1;
+        padding: 5rem;
+        opacity: 0.95;
+        color: #fff;
+        background-color: #0f2557;
+    }
+    .cards{
+        display: flex;
+        gap: 0.5rem;
+        margin-top: -5rem;
+        margin-left: 6rem;
+        margin-right: 1rem;
+        text-align: center;
+    }
+    .cards>*{
+        background-color: #4184f4;
+        padding: 1rem;
+        margin-bottom: 0.75rem;
+        opacity: 0.8;
+    }
+    .number{
+        visibility: visible;
+        top: 3rem;
+        left: 60rem;
+        padding: 1rem;
+        text-align: center;
+        color: #fff;
+        opacity: 0.95;
+        background-color: #4184f4;
+    }
+    .number-h2{
+        font-size: 5rem;
+        font-weight: bold;
+        font-family: montserrat, sans-serif;
+    }
+    .rounded{
+        top: 3.8rem;
+        left: 2.8rem;
+        border: 15px solid #f15048;
+        border-radius: 50%;
+    }
+}
